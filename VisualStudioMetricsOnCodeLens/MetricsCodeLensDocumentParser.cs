@@ -57,7 +57,7 @@ namespace VisualStudioMetricsOnCodeLens
         /// <returns></returns>
         public async Task<string> GetCodeLensDescriptionAsync()
         {
-            var descriptionDefault = "MI(%)";
+            var descriptionDefault = "MI(%MI%)";
             var collection = "MetricsOnCodeLens";
             var property = "CodeLensDescription";
 
